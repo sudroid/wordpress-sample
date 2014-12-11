@@ -1,0 +1,38 @@
+/*
+ Theme Name:   Blackbird Child
+ Theme URI:    http://example.com/twenty-fourteen-child/
+ Description:  Blackbird Child Theme
+ Author:       Shue Chan
+ Author URI:   http://example.com
+ Template:     blackbird
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  blackbird-child
+*/
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.menu_wrapper, .sub-menu{ 
+	background: #12212F!important;
+}
+
+.footer_bottom, .header-info {
+	display:none;
+}
+
+.content {
+	padding-bottom:20px !important;
+}
+
+.header .grid_16 .logo {
+	font-size:80px !important;
+	text-align: right;
+}
+
+.header .grid_16 .logo h1.site-title{ 
+	color:#12212F!important;
+	font-family:"Trebuchet MS";
+	font-size:80px !important;
+}
